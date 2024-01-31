@@ -21,10 +21,49 @@
 // } else {
 //   console.log("not valid");
 
-let counter = 20;
+// let counter = 20;
 
-while (counter <= 25) {
-  console.log(counter);
-  counter++;
-}
-console.log("swag");
+// while (counter <= 25) {
+//   console.log(counter);
+//   counter++;
+// }
+// console.log("swag");
+
+// for (let i = 1; i <= 10; i++) {
+//   for (let j = 2; j <= 10; j++) {
+//     console.log(i, "multiplied by", j, "is equal to", i * j);
+//   }
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i == 1) {
+//     console.log("Gold");
+//   } else if (i == 2) {
+//     console.log("Silver");
+//   } else if (i == 3) {
+//     console.log("Bronze");
+//   } else {
+//     console.log(i);
+//   }
+//   switch (i) {
+//     case 1:
+//       console.log("Gold");
+//       break;
+//     case 2:
+//       console.log("Silver");
+//       break;
+//     case 3:
+//       console.log("Bronze");
+//       break;
+//     default:
+//       console.log(i);
+//   }
+// }
+
+// for (var i = 0; i <= 5; i++) {
+//   console.log("Hello");
+// }
+
+/*
+asdasdasdasdasd
+*asdoiasoijdaoijsdjioasd */
