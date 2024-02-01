@@ -191,28 +191,76 @@
 //   celebrateStyler("champions");
 // }
 // // Call styleAndCelebrate
-function two() {
-  return 2;
+// function two() {
+//   return 2;
+// }
+
+// function one() {
+//   return 1;
+// }
+
+// function calculate(initialValue, incrementValue) {
+//   return initialValue() + incrementValue() + incrementValue();
+// }
+
+// console.log(calculate(two, one));
+
+// function meal(animal) {
+//   animal.food = animal.food + 10;
+// }
+
+// var dog = {
+//   food: 10,
+// };
+// meal(dog);
+// meal(dog);
+
+// console.log(dog.food);
+
+// class Vehicle {
+//   constructor(passenger, fly) {
+//     this.passenger = passenger;
+//     this.fly = fly;
+//   }
+// }
+// class Plane extends Vehicle {
+//   constructor(purpose, highSpeed, passenger, fly) {
+//     super(passenger, fly);
+//     this.purpose = purpose;
+//     this.highSpeed = highSpeed;
+//   }
+// }
+
+// let car = new Vehicle(true, false);
+// let plane = new Vehicle(true, true);
+// let fighterJet = new Plane("army", true, false, true);
+// console.log(car);
+// console.log(plane);
+// console.log(fighterJet);
+
+// class Animal {
+//   constructor(lg) {
+//     this.legs = lg;
+//   }
+// }
+
+// class Dog extends Animal {
+//   constructor() {
+//     super(4);
+//   }
+// }
+
+// var result = new Dog();
+// console.log(result.legs);
+
+class Animal {}
+
+class Cat extends Animal {
+  constructor() {
+    super();
+    this.noise = "meow";
+  }
 }
 
-function one() {
-  return 1;
-}
-
-function calculate(initialValue, incrementValue) {
-  return initialValue() + incrementValue() + incrementValue();
-}
-
-console.log(calculate(two, one));
-
-function meal(animal) {
-  animal.food = animal.food + 10;
-}
-
-var dog = {
-  food: 10,
-};
-meal(dog);
-meal(dog);
-
-console.log(dog.food);
+var result = new Animal();
+console.log(result.noise);
