@@ -253,14 +253,14 @@
 // var result = new Dog();
 // console.log(result.legs);
 
-class Animal {}
+// class Animal {}
 
-class Cat extends Animal {
-  constructor() {
-    super();
-    this.noise = "meow";
-  }
-}
+// class Cat extends Animal {
+//   constructor() {
+//     super();
+//     this.noise = "meow";
+//   }
+// }
 
-var result = new Animal();
-console.log(result.noise);
+// var result = new Animal();
+// console.log(result.noise);
